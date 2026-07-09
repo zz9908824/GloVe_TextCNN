@@ -5,10 +5,8 @@
 词向量训练模型地址github：https://github.com/stanfordnlp/GloVe.git
 数据集：cnews 链接: https://pan.baidu.com/s/1Nm4AbkL9M-KkplCFVO6HUw?pwd=pb2b 提取码: pb2b
 glove预训练词向量：链接: https://pan.baidu.com/s/1Wa6GVXVwNTFLsUBXZYAgEg?pwd=3wgi 提取码: 3wgi
-<<<<<<< HEAD
-=======
 Data文件：TextCNN+GloVe链接: https://pan.baidu.com/s/1QalxPYgASpMwiuqsNzNMgw?pwd=1gwk 提取码: 1gwk
->>>>>>> 7ae83df47cab29dd492b45f75c9e2e1d4d401894
+
 ## 一、实现
 
 ### 1.GloVe词向量学习
