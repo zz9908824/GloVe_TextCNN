@@ -1,0 +1,18 @@
+# 超大数据集与词向量
+Data/THUCNews.zip
+Data/cnews_corpus/
+Data/vector/
+Data/*.zip
+
+# 缓存、环境、模型权重
+__pycache__/
+*.pth
+*.npy
+*.npz
+textcnn_env/
+*.log
+
+echo "Data/" >> .gitignore
+echo "*.zip" >> .gitignore
+echo "*.bin" >> .gitignore
+echo "__pycache__/" >> .gitignore
