@@ -31,7 +31,7 @@ cooccur.c文件统计单词共现，构建单词的共现矩阵。首先根据vo
 
 shuffle.c文件会打乱单词对顺序。cooccur.c输出的文件是经过排序的文件，如果模型直接使用cooccur.c输出的文件，模型的学习结果会受到词频排序的影响产生偏见，因此需要shuffle.c文件对cooccur.c文件的输出文件做打乱乱序处理。由于cooccur.c文件输出的单词对顺序文件的大小过大，无法一次将完整的文件加载到内存，shuffle.c文件采用了两级“分块打乱+块内打乱”的处理方法。**优点：两级打乱，解决文件大无法一次加载到内存的问题；Fisher-Yates原地洗牌算法（必须保证随机下标j均匀分布），公平无偏的洗牌算法。**
 
-glove.c文件实现词向量学习。损失函数：$J=\sum_{i,j=1}^{V}f({x_{ij}})({w_i}^T\tilde{w}_j+b_i+\tilde{b}_j-\log{X_{ij}})^2$，glove.c文件输出模型学习好的词向量文件vectors.bin（二进制文件）和vectors.txt。
+glove.c文件实现词向量学习。损失函数：$$J=\sum_{i,j=1}^{V}f({x_{ij}})({w_i}^T\tilde{w}_j+b_i+\tilde{b}_j-\log{X_{ij}})^2$$，glove.c文件输出模型学习好的词向量文件vectors.bin（二进制文件）和vectors.txt。
 
 ### 2.TextCNN文本分类
 
