@@ -2,10 +2,14 @@
 
 首先用GloVe训练语料词向量，然后TextCNN基于GloVe学习的词向量实现文本分类。
 
-词向量训练模型地址github：https://github.com/stanfordnlp/GloVe.git
-数据集：cnews 链接: https://pan.baidu.com/s/1Nm4AbkL9M-KkplCFVO6HUw?pwd=pb2b 提取码: pb2b
-glove预训练词向量：链接: https://pan.baidu.com/s/1Wa6GVXVwNTFLsUBXZYAgEg?pwd=3wgi 提取码: 3wgi
-Data文件：TextCNN+GloVe链接: https://pan.baidu.com/s/1QalxPYgASpMwiuqsNzNMgw?pwd=1gwk 提取码: 1gwk
+词向量训练模型地址github：https://github.com/stanfordnlp/GloVe.git  
+
+数据集：cnews 链接: https://pan.baidu.com/s/1Nm4AbkL9M-KkplCFVO6HUw?pwd=pb2b 提取码: pb2b  
+
+glove预训练词向量：链接: https://pan.baidu.com/s/1Wa6GVXVwNTFLsUBXZYAgEg?pwd=3wgi 提取码: 3wgi  
+
+Data文件：TextCNN+GloVe链接: https://pan.baidu.com/s/1QalxPYgASpMwiuqsNzNMgw?pwd=1gwk 提取码: 1gwk **从网盘下载Data文件只需要和仓库中code文件夹放在同级目录下然后修改代码中相应路径即可**  
+
 
 ## 一、实现
 
