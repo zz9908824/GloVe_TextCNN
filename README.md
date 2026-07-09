@@ -114,15 +114,18 @@ glove_finetune：模型学习过程中，预训练词向量随模型梯度更新
 
 ## 二、结果
 
-random模式模型的学习结果：
+random模式模型的学习结果：  
+
 <img width="727" height="823" alt="image" src="https://github.com/user-attachments/assets/5fb40054-4b13-4b31-b3d0-edcfb366e86e" />
 <img width="735" height="907" alt="image" src="https://github.com/user-attachments/assets/a6381794-8394-4989-a94e-535ede7579fb" />
 
-glove_static模式模型学习结果（连续五轮没有最优的验证集准确率，早停）：
+glove_static模式模型学习结果（连续五轮没有最优的验证集准确率，早停）：  
+
 <img width="721" height="1099" alt="image" src="https://github.com/user-attachments/assets/5b0d270c-f126-4d40-82eb-c10f4cb140e2" />
 <img width="1030" height="814" alt="image" src="https://github.com/user-attachments/assets/a8408504-a700-4519-9774-32faa432ecdb" />
 
-glove_finetune模式模型学习结果（连续五轮没有最优的验证集准确率，早停）：
+glove_finetune模式模型学习结果（连续五轮没有最优的验证集准确率，早停）：  
+
 <img width="1317" height="1363" alt="image" src="https://github.com/user-attachments/assets/da943677-6769-42cd-b027-8971bd08af07" />
 <img width="763" height="679" alt="image" src="https://github.com/user-attachments/assets/3663baf3-c837-4d86-9ac1-fe5800c04573" />
 
