@@ -45,6 +45,8 @@ $$
 
 preprocess_cnews.py文件将cnews数据集按照和GloVe一样的处理方法清洗、分词。
 
+<img width="1474" height="694" alt="image" src="https://github.com/user-attachments/assets/b03249e2-061f-425a-904e-85fb23fe8cb4" />
+
 vocab_count.py文件和GloVe统计单词词频并按词频降序排序的思想一致，vocab_count.py文件对分好词的数据集统计单词词频并按词频降序排序得到数据集的单词表文件vocab.txt。
 
 （2）单词和标签映射
@@ -56,6 +58,8 @@ transword_id.py文件中`build_vocab(vocab_path, min_count=1)方法`将vocab.txt
 word2id和id2word文件的单词顺序和模型嵌入层词向量矩阵单词顺序一致。
 
 label_map.py文件中`load_label_mapping(file_path)方法`将自定义的label_mapping.txt文件转换成字典的格式label2id，帮助把经过清洗和分词的数据文件中的标签转换成对应的数字。
+
+<img width="463" height="391" alt="image" src="https://github.com/user-attachments/assets/cecbda82-f766-4717-aebe-f499fe242db6" />
 
 （3）TextCNN文本分类
 
@@ -119,7 +123,7 @@ random模式模型的学习结果：
 <img width="727" height="823" alt="image" src="https://github.com/user-attachments/assets/5fb40054-4b13-4b31-b3d0-edcfb366e86e" />
 <img width="735" height="907" alt="image" src="https://github.com/user-attachments/assets/a6381794-8394-4989-a94e-535ede7579fb" />
 
-glove_static模式模型学习结果（连续五轮没有最优的验证集准确率，早停）：  
+glove_static模式模型学习结果（阿里云DSW平台完成训练，连续五轮没有最优的验证集准确率，早停）：  
 
 <img width="721" height="1099" alt="image" src="https://github.com/user-attachments/assets/5b0d270c-f126-4d40-82eb-c10f4cb140e2" />
 <img width="1030" height="814" alt="image" src="https://github.com/user-attachments/assets/a8408504-a700-4519-9774-32faa432ecdb" />
